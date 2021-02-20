@@ -41,7 +41,7 @@ updateClock();
 var timeinterval= setInterval(updateClock,1000);
     
 }
-var deadline= new Date("2021-01-01")
+var deadline= new Date("2022-01-01")
 //var deadline = new Date(Date.parse(new Date())+7*24*60*60*1000);
 initializeClock('clockdiv',deadline);
 
